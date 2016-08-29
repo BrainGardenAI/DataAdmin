@@ -1,9 +1,6 @@
 organization := "io.brain-garden"
-
 name := "data-admin"
-
 version := "0.1"
-
 scalaVersion := "2.11.8"
 
 libraryDependencies ++= {
@@ -20,5 +17,4 @@ libraryDependencies ++= {
   )
 }
 
-
-fork in run := true
+coverageEnabled := true
