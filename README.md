@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/BrainsGarden/DataAdmin.svg?branch=master)](https://travis-ci.org/BrainsGarden/DataAdmin)     [![Coverage Status](https://coveralls.io/repos/github/BrainsGarden/DataAdmin/badge.svg?branch=master)](https://coveralls.io/github/BrainsGarden/DataAdmin?branch=master)
+[![Build Status](https://braingarden.sknt.ru:8080/job/DataAdminBuild/job/feature%252Fjenkins/badge/icon)](https://braingarden.sknt.ru:8080/job/DataAdminBuild/job/feature%252Fjenkins/)
 
 # DataAdmin
 Tools for test data acquisition and semantic tagging
