@@ -1,5 +1,5 @@
 def sbt(commands) {
-    sh './sbt ' + commands
+    sh 'sbt ' + commands
 }
 
 stage 'Compile'
