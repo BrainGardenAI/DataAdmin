@@ -1,5 +1,9 @@
-node ('master'){
- stage 'Build and Test'
- checkout scm
- sh 'echo "Hello,world"'
+def sbt(commands) {
+    sh './sbt ' + commands
+}
+
+stage 'Compile'
+node {
+    checkout scm
+    sbt 'clean compile test:compile'
 }
